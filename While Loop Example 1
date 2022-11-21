@@ -1,0 +1,12 @@
+using System;
+class Program {
+  public static void Main (string[] args) {
+    int i = 0;
+    while (i < 5)
+    {
+      Console.WriteLine(i);
+      i++;
+    }
+    //in the example, the code in the loop will run, over and over again, as long as a variable (i) is less than 5
+  }
+}
