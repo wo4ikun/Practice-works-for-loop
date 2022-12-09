@@ -1,0 +1,28 @@
+using System; 
+   class Program { 
+ public static void Main (string[] args) { 
+  int sum = 0;
+   int n = 0;
+   while (n < 50) {
+     n++;
+     sum += n;
+   } 
+   Console.WriteLine(sum);
+
+   int summ = 0;
+   int a = -1;
+   while (a < 49) {
+     a += 2;
+     summ += a;
+   }
+   Console.WriteLine(summ);
+
+   int summm = 0;
+   int x = 26;
+   while (x < 76) {
+     x++;
+     summm += x;
+   }
+   Console.WriteLine(summm);
+  }
+}
