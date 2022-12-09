@@ -8,13 +8,13 @@ using System;
    Console.WriteLine(sum);
      
    int sama = 0;
-   for (int n = -1; n < 51; n += 2) {
+   for (int n = -1; n < 49; n += 2) {
      sama += n;
    }
      Console.WriteLine(sama);
 
     int summ = 0;
-   for (int n = 24; n < 76; n++) {
+   for (int n = 26; n < 76; n++) {
      summ += n;
    }
      Console.WriteLine(summ);
