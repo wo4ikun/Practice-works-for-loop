@@ -10,7 +10,7 @@ using System;
    }
    Console.WriteLine("Arrays elements are");
   for (int i = 0; i < 8; i++) {
-    Console.WriteLine(i);
+    Console.WriteLine(num[i]);
   }
    Console.WriteLine("Sum is {0}", sum);
   }
