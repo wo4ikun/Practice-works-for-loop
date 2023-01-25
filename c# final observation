@@ -18,6 +18,7 @@ using System;
   }
 }
 
+
 2. 
 
 using System;
@@ -94,4 +95,248 @@ class Program {
   }
 }
 
+
 3. 
+
+using System; 
+   class Program { 
+ public static void Main (string[] args) { 
+  int sum = 0;
+   for (int n = 0; n < 51; n++) {
+     sum += n;
+   }
+   Console.WriteLine(sum);
+  }
+}
+
+using System; 
+   class Program { 
+ public static void Main (string[] args) { 
+  int sum = 0;
+   int n = 0;
+   do {
+     n++;
+     sum += n;
+   } while (n < 50);
+   Console.WriteLine(sum);
+  }
+}
+
+using System; 
+   class Program { 
+ public static void Main (string[] args) { 
+  int sum = 0;
+   int n = 0;
+   while (n < 50) {
+     n++;
+     sum += n;
+   } 
+   Console.WriteLine(sum);
+  }
+}
+
+
+4. 
+
+using System;
+   class Program { 
+ public static void Main (string[] args) { 
+ int summ = 0;
+   int a = -1;
+   do {
+     a += 2;
+     summ += a;
+   } while (a < 49);
+   Console.WriteLine(summ);
+  }
+}
+
+using System;
+   class Program { 
+ public static void Main (string[] args) { 
+  int sama = 0;
+   for (int n = -1; n < 51; n += 2) {
+     sama += n;
+   }
+     Console.WriteLine(sama);
+  }
+}
+
+using System;
+   class Program { 
+ public static void Main (string[] args) { 
+  int summ = 0;
+   int a = -1;
+   while (a < 49) {
+     a += 2;
+     summ += a;
+   }
+   Console.WriteLine(summ);
+  }
+}
+
+
+5. 
+
+using System; 
+   class Program { 
+ public static void Main (string[] args) { 
+  int summm = 0;
+   int x = 26;
+   while (x < 76) {
+     x++;
+     summm += x;
+   }
+   Console.WriteLine(summm);
+  }
+}
+
+using System; 
+   class Program { 
+ public static void Main (string[] args) { 
+   int summ = 0;
+   for (int n = 26; n < 76; n++) {
+     summ += n;
+   }
+     Console.WriteLine(summ);
+  }
+}
+
+using System;
+   class Program { 
+ public static void Main (string[] args) { 
+   int summm = 0;
+   int b = 26;
+   do {
+     b++;
+     summm += b;
+   } while (b < 76);
+   Console.WriteLine(summm);
+  }
+}
+
+
+6. 
+
+using System;
+class Program {
+  public static void Main (string[] args) {
+    Console.WriteLine("Odd numbers");
+    for (int i = 1; i <= 100; i += 2)
+    {
+      Console.Write(i + ", ");
+    }
+    Console.WriteLine();
+    Console.WriteLine("Even numbers");
+    for (int i = 2; i <= 100; i+= 2)
+    {
+      Console.Write(i + ", ");
+    }
+  }
+}
+
+
+7. 
+
+using System; 
+   class Program { 
+ public static void Main (string[] args) { 
+  int i = 1; 
+   int sum = 0; 
+   int num; 
+   while(i <= 100) 
+   { 
+   num=Convert.ToInt32(Console.ReadLine()); 
+   sum += num; 
+   i++; 
+    } 
+   Console.WriteLine("Sum is" + sum); 
+   } 
+ } 
+
+
+8. 
+
+using System;
+class Program {
+  public static void Main (string[] args) {
+  int i = 1;
+    do
+    {
+      Console.WriteLine(i);
+      i *= 2;
+    } while (i <= 1024);
+  }
+}
+
+
+9. 
+
+using System; 
+   class Program { 
+ public static void Main (string[] args) { 
+ int n=5; 
+  for(int i=1;i<=n;i++) 
+   { 
+    for(int j=1;j<=i;j++) 
+     { 
+     Console.Write(j); 
+     } 
+    Console.WriteLine(); 
+   } 
+  } 
+ } 
+
+
+10.
+
+using System;
+class Program {
+  public static void Main (string[] args) {
+  int i = 3;
+    int sum = 0;
+    while (i <= 99)
+    {
+      sum += i;
+      i += 2;
+    }
+    Console.WriteLine("Sum is " + sum);
+  }
+}
+
+
+11. 
+
+using System;
+class Program {
+public static void Main (string[] args) {
+for (int i = 5; i >= 1; i--)
+{
+for (int j = i; j >= 1; j--)
+{
+Console.Write("*");
+}
+Console.WriteLine();
+}
+}
+}
+
+
+12. 
+
+using System;
+  class Program {
+public static void Main (string[] args) {
+    Console.Write("x: ");
+  int x = Convert.ToInt32(Console.ReadLine());
+    Console.Write("n: ");
+  int n = Convert.ToInt32(Console.ReadLine());
+  int m = 1;
+  double sum = 0;
+  while (m <= n) {
+     sum += (m/Math.Pow(x, m+1));
+      m++;
+  }
+  Console.WriteLine(sum);
+ }
+}
